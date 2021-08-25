@@ -16,6 +16,8 @@ npm install pg pg-hstore sequelize
 ## What have been done.
 
 [X] Simply run `npm run sequelize:init`.
+    [X] Run `npm run sequelize:model:generate -- --name Pokemon --attributes name:string,japaneseName:string,baseHP:integer,category:string,trainerId:integer`.
 [ ] Configure .sequelizerc to store all db files into a `db` folder (to differentiate with the application codes).
     - This is because only partial files generated/referenced by `sequelize-cli` will be used in application codes as well.
     - We would like to create a reusable package for migration and application build.
+[ ] Clean up package.json

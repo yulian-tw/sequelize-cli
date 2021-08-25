@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "sequelize:model:generate": "npx sequelize-cli model:generate",
     "sequelize:init": "npx sequelize-cli init",
+    "sequelize:help": "npx sequelize-cli help",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
